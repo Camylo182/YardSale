@@ -109,8 +109,9 @@ body {
 
 .emailsent-container {
     display: grid;
-    grid-template-rows: auto 1fr 1fr auto;
+    grid-template-rows: auto 1fr auto;
     width: 300px;
+    justify-items: center;
 }
 
 .emailsent-button {
@@ -128,14 +129,33 @@ body {
 }
 
 .email-icon {
-    display: grid;
-    place-items: center;
-    margin-bottom: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--text-input-field);
+    border-radius: 50%;
+    margin-bottom: 5%;
     margin-top: 2%;
+    width: 132px;
+    height: 132px;
+}
+
+.email-icon img {
+    width: 80px;
 }
 
 .footer-emailsent {
     display: flex;
     flex-direction: column;
     text-align: center;
+    font-size: var(--sm);
+    margin-top: 5%;
+}
+
+.footer-emailsent span {
+    color: var(--very-light-pink);
+}
+
+.footer-emailsent a {
+    color: var(--hospital-green);
 }
