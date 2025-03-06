@@ -159,3 +159,58 @@ body {
 .footer-emailsent a {
     color: var(--hospital-green);
 }
+
+/* This is the CSS for the page login.html */
+
+.login-menu {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.signup-button {
+    background-color: transparent;
+    height: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--hospital-green);
+    border-radius: 8px;
+    font-size: var(--md);
+    font-weight: bold;
+    color: var(--hospital-green);
+    width: 100%;
+    margin-top: 17%;
+    cursor: pointer;
+}
+
+.login-menu a {
+    font-size: var(--sm);
+    color: var(--hospital-green);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-menu-form-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+}
+
+.forgot-my-password {
+    display: grid;
+    place-items: center;
+    margin-top: 2%;
+}
+
+.login-menu-form-container input {
+    margin-bottom: 5%;
+}
+
+.login-button {
+    margin-top: 7%;
+}
+
+.login-menu-input {
+    color: var(--very-light-pink);
+}
