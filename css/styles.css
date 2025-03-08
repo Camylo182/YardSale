@@ -214,3 +214,11 @@ body {
 .login-menu-input {
     color: var(--very-light-pink);
 }
+
+/* This is the CSS code for the page createaccount.html */
+
+.create-account {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+}
