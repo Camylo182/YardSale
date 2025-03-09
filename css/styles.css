@@ -217,8 +217,49 @@ body {
 
 /* This is the CSS code for the page createaccount.html */
 
+.body-create-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .create-account {
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 300px;
+    height: 100vh;
+}
+
+.form-create-account {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-create-account label {
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+.create-account h1 {
+    font-size: var(--md);
+    margin-top: 10%;
+}
+
+.input-create-account {
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--text-input-field);
+    color: var(--very-light-pink);
+}
+
+.save-button-create-account {
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--hospital-green);
+    color: var(--white);
+    margin-bottom: 5%;
 }
