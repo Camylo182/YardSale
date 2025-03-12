@@ -326,3 +326,24 @@ body {
     color: var(--hospital-green);
     font-weight: bold;
 }
+
+@media (max-width: 480px) {
+    .container-edit-account h1 {
+        font-size: var(--md);
+        margin-bottom: 10%;
+        margin-top: 0;
+    }
+
+    .edit-button-edit-account {
+        height: 40px;
+        border-radius: 8px;
+        border-color: var(--hospital-green);
+        border-width: 1px;
+        background-color: var(--white);
+        border-style: solid;
+        cursor: pointer;
+        margin-top: auto;
+        color: var(--hospital-green);
+        font-weight: bold;
+    }
+}
