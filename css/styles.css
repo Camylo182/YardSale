@@ -276,3 +276,53 @@ body {
         margin-top: 5%;
     }
 }
+
+/* This is the CSS code for the editaccount.html page */
+
+.container-edit-account {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    height: 100vh;
+    width: 300px;
+    margin: auto;
+}
+
+.container-edit-account h1 {
+    font-size: var(--md);
+    margin-bottom: 10%;
+    margin-top: 30%;
+}
+
+.form-edit-account {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-edit-account input {
+    margin-bottom: 7%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--text-input-field);
+    color: var(--very-light-pink);
+}
+
+.form-edit-account label {
+    font-weight: bold;
+    font-size: var(--sm);
+    margin-bottom: 2%;
+}
+
+.edit-button-edit-account {
+    height: 40px;
+    border-radius: 8px;
+    border-color: var(--hospital-green);
+    border-width: 1px;
+    background-color: var(--white);
+    border-style: solid;
+    cursor: pointer;
+    margin-top: 6%;
+    color: var(--hospital-green);
+    font-weight: bold;
+}
