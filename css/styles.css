@@ -347,3 +347,26 @@ body {
         font-weight: bold;
     }
 }
+
+/* This is the CSS code for the home.html page */
+
+.products-home-page {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+}
+
+.product-card-home-page img:nth-child(1) {
+    height: 240px;
+    width: 240px;
+}
+
+.product-description-home-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-description-home-page img {
+    height: 35px;
+    width: 35px;
+}
