@@ -353,11 +353,15 @@ body {
 .products-home-page {
     display: grid;
     grid-template-columns: repeat(auto-fill, 240px);
+    justify-content: space-around;
 }
 
 .product-card-home-page img:nth-child(1) {
     height: 240px;
     width: 240px;
+    border-radius: 8%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .product-description-home-page {
@@ -369,4 +373,17 @@ body {
 .product-description-home-page img {
     height: 35px;
     width: 35px;
+}
+
+.price-name-home-page p:nth-child(1) {
+    font-size: var(--md);
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom: 0;
+}
+
+.price-name-home-page p:nth-child(2) {
+    font-size: var(--sm);
+    color: var(--very-light-pink);
+    margin-top: 0;
 }
