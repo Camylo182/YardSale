@@ -387,3 +387,47 @@ body {
     color: var(--very-light-pink);
     margin-top: 0;
 }
+
+/* This is the CSS code for the desktop-menu.html page */
+
+.desktop-menu-container {
+    padding: 0 20px 0 15px;
+    border: 1px solid var(--very-light-pink);
+    width: 130px;
+    border-radius: 6px;
+}
+
+.orders-account-desktop-menu {
+    list-style: none;
+    display: grid;
+    justify-content: end;
+}
+
+.orders-account-desktop-menu li a {
+    display: inline-block;
+    font-size: var(-md);
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.sign-out-desktop-menu {
+    display: grid;
+    justify-content: end;
+    list-style: none;
+    border-top: 1px solid var(--very-light-pink);
+}
+
+.sign-out-desktop-menu li a {
+    font-size: var(-sm);
+    text-decoration: none;
+    color: var(--hospital-green);
+    font-weight: bold;
+}
+
+.sign-out-desktop-menu li {
+    display: inline-block;
+    margin: 8px 0 12px 0;
+    padding-top: 15px;
+}
