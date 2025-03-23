@@ -496,3 +496,90 @@ body {
     font-size: var(--sm);
     color: var(--hospital-green);
 }
+
+/* This is the CSS code for the desktop version of My Orders page */
+
+.body-myorders-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container-myorders-desktop {
+    width: 450px;
+    height: auto;
+}
+
+.main-container-myorders-desktop h1 {
+    font-size: var(--md);
+    margin: 75px 0 40px 0;
+}
+
+.details-myorders-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--text-input-field);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.date-articles-myorders-desktop {
+    margin-left: 15px;
+}
+
+.date-articles-myorders-desktop p:nth-child(1) {
+    margin-bottom: 0;
+    font-size: var(--md);
+    font-weight: bold;
+    color: var(--black);
+}
+
+.date-articles-myorders-desktop p:nth-child(2) {
+    margin-top: 0;
+    font-size: var(--sm);
+    color: var(--very-light-pink);
+    font-weight: bold;
+}
+
+.total-price-myorders-desktop {
+    display: flex;
+    align-items: center;
+    font-size: var(--md);
+    font-weight: bold;
+    color: var(--black);
+    margin-right: 30px;
+}
+
+.container-products-myorders-desktop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-name-myorders-desktop {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.image-name-myorders-desktop p {
+    font-size: var(--sm);
+    color: var(--very-light-pink);
+}
+
+.product-price-myorders-desktop {
+    display: flex;
+    align-items: center;
+    font-size: var(--md);
+    font-weight: bold;
+    color: var(--black);
+}
+
+.image-name-myorders-desktop img {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 17px;
+}
