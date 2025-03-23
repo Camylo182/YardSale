@@ -530,7 +530,7 @@ body {
 
 .date-articles-myorders-desktop p:nth-child(1) {
     margin-bottom: 0;
-    font-size: var(--md);
+    font-size: var(--sm);
     font-weight: bold;
     color: var(--black);
 }
@@ -545,7 +545,7 @@ body {
 .total-price-myorders-desktop {
     display: flex;
     align-items: center;
-    font-size: var(--md);
+    font-size: var(--sm);
     font-weight: bold;
     color: var(--black);
     margin-right: 30px;
@@ -554,6 +554,7 @@ body {
 .container-products-myorders-desktop {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 18px;
 }
 
 .image-name-myorders-desktop {
@@ -571,15 +572,15 @@ body {
 .product-price-myorders-desktop {
     display: flex;
     align-items: center;
-    font-size: var(--md);
+    font-size: var(--sm);
     font-weight: bold;
     color: var(--black);
 }
 
 .image-name-myorders-desktop img {
     display: inline-block;
-    width: 75px;
-    height: 75px;
+    width: 70px;
+    height: 70px;
     object-fit: cover;
     border-radius: 17px;
 }
