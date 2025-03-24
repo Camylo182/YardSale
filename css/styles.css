@@ -584,3 +584,84 @@ body {
     object-fit: cover;
     border-radius: 17px;
 }
+
+/* This is the CSS code for the page My Orders for mobile devices */
+
+.body-myorders-mobile {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container-myorders-mobile {
+    width: 360px;
+}
+
+.order-description-myorders-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--text-input-field);
+    border-radius: 12px;
+    margin-top: 18px;
+    margin-bottom: 19px;
+}
+
+.date-articles-myorders-mobile {
+    margin-left: 13px;
+}
+
+.date-articles-myorders-mobile p:nth-child(1) {
+    font-size: var(--md);
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom: 0;
+}
+
+.date-articles-myorders-mobile p:nth-child(2) {
+    font-size: var(--sm);
+    color: var(--very-light-pink);
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.total-price-myorders-mobile {
+    font-size: var(--sm);
+    font-weight: bold;
+    color: var(--black);
+    margin-right: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.product-description-myorders-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-name-myorders-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image-name-myorders-mobile img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 17px;
+}
+
+.image-name-myorders-mobile p {
+    font-size: var(--sm);
+    color: var(--very-light-pink);
+    margin-left: 15px;
+}
+
+.product-price-myorders-mobile {
+    font-size: var(--sm);
+    font-weight: bold;
+    color: var(--black);
+    margin-right: 14px;
+}
