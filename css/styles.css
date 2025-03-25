@@ -548,7 +548,7 @@ body {
     font-size: var(--sm);
     font-weight: bold;
     color: var(--black);
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .container-products-myorders-desktop {
@@ -567,6 +567,8 @@ body {
 .image-name-myorders-desktop p {
     font-size: var(--sm);
     color: var(--very-light-pink);
+    max-width: 250px;
+    line-height: 1.2;
 }
 
 .product-price-myorders-desktop {
@@ -575,6 +577,7 @@ body {
     font-size: var(--sm);
     font-weight: bold;
     color: var(--black);
+    margin-right: 20px;
 }
 
 .image-name-myorders-desktop img {
@@ -593,7 +596,7 @@ body {
 }
 
 .main-container-myorders-mobile {
-    width: 360px;
+    width: 330px;
 }
 
 .order-description-myorders-mobile {
@@ -638,6 +641,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 18px;
 }
 
 .image-name-myorders-mobile {
@@ -657,11 +661,13 @@ body {
     font-size: var(--sm);
     color: var(--very-light-pink);
     margin-left: 15px;
+    max-width: 150px;
+    line-height: 1.2;
 }
 
 .product-price-myorders-mobile {
     font-size: var(--sm);
     font-weight: bold;
     color: var(--black);
-    margin-right: 14px;
+    margin-right: 15px;
 }
