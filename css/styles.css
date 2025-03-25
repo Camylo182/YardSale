@@ -671,3 +671,53 @@ body {
     color: var(--black);
     margin-right: 15px;
 }
+
+/* This is the CSS code for the page My Orders for desktop devices */
+
+.body-myorders-summary-desktop {
+    display: flex;
+    justify-content: center;
+}
+
+.myorders-summary-container-desktop {
+    height: auto;
+    width: 400px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.myorders-summary-container-desktop h1 {
+    font-size: var(--md);
+}
+
+.order-details-myorders-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.date-units-myorders-desktop {
+    font-size: var(--sm);
+}
+
+.date-units-myorders-desktop p:nth-child(1) {
+    margin-bottom: 0;
+    font-weight: bold;
+    color: var(--black);
+    margin-left: 0;
+}
+
+.date-units-myorders-desktop p:nth-child(2) {
+    margin-top: 0;
+    font-weight: bold;
+    color: var(--very-light-pink);
+    margin-left: 0;
+}
+
+.total-amount-myorders-desktop {
+    display: flex;
+    align-items: center;
+    font-size: var(--sm);
+    font-weight: bold;
+    color: var(--black);
+}
