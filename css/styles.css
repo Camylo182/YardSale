@@ -717,12 +717,24 @@ body {
 .total-amount-myorders-desktop {
     display: flex;
     align-items: center;
+}
+
+.total-amount-myorders-desktop p {
     font-size: var(--sm);
     font-weight: bold;
     color: var(--black);
 }
 
+.total-amount-myorders-desktop img {
+    margin-left: 20px;
+}
+
 /* This is the CSS code for the page My Orders (Summary of all orders) for mobile devices */
+
+.body-myorders-summary-mobile {
+    display: flex;
+    justify-content: center;
+}
 
 .myorders-summary-container-mobile {
     margin-top: 30px;
@@ -730,7 +742,7 @@ body {
 
 .order-details-myorders-mobile {
     height: auto;
-    width: 300px;
+    width: 320px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -753,12 +765,14 @@ body {
 .total-amount-myorders-mobile {
     display: flex;
     align-items: center;
+}
+
+.total-amount-myorders-mobile p {
     font-size: var(--sm);
     color: var(--black);
     font-weight: bold;
 }
 
-.body-myorders-summary-mobile {
-    display: flex;
-    justify-content: center;
+.total-amount-myorders-mobile img {
+    margin-left: 20px;
 }
