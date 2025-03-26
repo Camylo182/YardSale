@@ -721,3 +721,44 @@ body {
     font-weight: bold;
     color: var(--black);
 }
+
+/* This is the CSS code for the page My Orders (Summary of all orders) for mobile devices */
+
+.myorders-summary-container-mobile {
+    margin-top: 30px;
+}
+
+.order-details-myorders-mobile {
+    height: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.date-units-myorders-mobile p:nth-child(1) {
+    margin-bottom: 0;
+    font-size: var(--sm);
+    color: var(--black);
+    font-weight: bold;
+}
+
+.date-units-myorders-mobile p:nth-child(2) {
+    margin-top: 0;
+    font-size: var(--sm);
+    color: var(--very-light-pink);
+    font-weight: bold;
+}
+
+.total-amount-myorders-mobile {
+    display: flex;
+    align-items: center;
+    font-size: var(--sm);
+    color: var(--black);
+    font-weight: bold;
+}
+
+.body-myorders-summary-mobile {
+    display: flex;
+    justify-content: center;
+}
