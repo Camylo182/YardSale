@@ -776,3 +776,125 @@ body {
 .total-amount-myorders-mobile img {
     margin-left: 20px;
 }
+
+/* The is the CSS code for the navigation bar */
+
+.navbar-main-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.navbar-left {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+}
+
+.menu-icon-navbar {
+    display: none;
+}
+
+.yardsale-logo-navbar {
+    width: 120px;
+}
+
+.navbar-left ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.navbar-left ul li a {
+    font-size: var(--md);
+    color: var(--very-light-pink);
+    text-decoration: none;
+}
+
+.navbar-left ul li a:hover {
+    border: 1px solid var(--hospital-green);
+    border-radius: 8px;
+    color: var(--hospital-green);
+    background-color: var(--white);
+    padding: 3px 13px;
+}
+
+.signin-cart-navbar a {
+    font-size: var(--sm);
+    color: var(--hospital-green);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1.5rem;
+
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.shoppingcart-logo-navbar {
+    vertical-align: middle;
+}
+
+.signin-cart-navbar {
+    position: relative;
+}
+
+.signin-cart-navbar span {
+    font-weight: bold;
+    font-size: 13px;
+    position: absolute;
+    right: 3px;
+    bottom: 16px;
+}
+
+@media (max-width: 767px) {
+
+    .navbar-main-container {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        margin-top: 0.5rem;
+    }
+
+    .navbar-left {
+        display: flex;
+    }
+
+    .yardsale-logo-navbar {
+        width: 100px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .menu-icon-navbar {
+        display: block;
+        transform: translateX(-50%);
+    }
+
+    .navbar-left ul {
+        display: none;
+    }
+
+    .signin-cart-navbar a {
+        display: none;
+    }
+
+    .shoppingcart-logo-navbar {
+        transform: translateX(50%);
+    }
+
+    .navbar-right span {
+        transform: translateX(210%);
+    }
+}
