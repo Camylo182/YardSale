@@ -898,3 +898,63 @@ body {
         transform: translateX(210%);
     }
 }
+
+/* This is the CSS code for the page product_description.html */
+
+.body-product_description {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-container-product_description {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-picture-product_description {
+    width: 100%;
+    height: 21rem;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.product-details-product_description {
+    margin: 1rem 0.9rem;
+}
+
+.product-details-product_description p:nth-child(1) {
+    font-size: var(--md);
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.product-details-product_description p:nth-child(2) {
+    font-size: var(--md);
+    color: var(--very-light-pink);
+    margin-top: 0;
+}
+
+.product-details-product_description p:nth-child(3) {
+    font-size: var(--md);
+    color: var(--very-light-pink);
+}
+
+.addtocart-button-product_description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--hospital-green);
+    color: var(--white);
+    padding: 0.5rem 0;
+    border: none;
+    border-radius: 8px;
+    margin: 1rem 0.9rem;
+    cursor: pointer;
+}
+
+.addtocart-button-product_description span {
+    font-size: var(--md);
+}
