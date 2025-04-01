@@ -990,10 +990,17 @@ body {
 }
 
 .product-price-shopping_cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     font-size: var(--sm);
     font-weight: bold;
     color: var(--black);
-    margin-right: 1rem;
+    gap: 1rem;
+}
+
+.product-price-shopping_cart img {
+    width: 0.7rem;
 }
 
 .image-name-card-shoping_cart>img {
